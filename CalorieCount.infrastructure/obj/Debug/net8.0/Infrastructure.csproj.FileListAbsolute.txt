@@ -1,0 +1,17 @@
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\bin\Debug\net8.0\Core.dll
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\bin\Debug\net8.0\Core.pdb
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+C:\Users\jawis\OneDrive\Desktop\Calorie\CalorieCount.infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

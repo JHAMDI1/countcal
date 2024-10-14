@@ -1,0 +1,37 @@
+
+services:
+  api:
+    build:
+      context: .  # Path to the directory with your Dockerfile
+      dockerfile: countAPI/Dockerfile  # Path to the Dockerfile
+    image: my_api_with_sqlserver_v2  # Name of the built image
+    ports:
+      - "5002:80"  # Expose port 80 of the API to port 5002 on the host
+    environment:
+      - ASPNETCORE_URLS=http://+:80;  # Listen on port 80
+      - ASPNETCORE_ENVIRONMENT=Development  # Set environment to Development
+      - ConnectionStrings__DefaultConnection=Server=sqlserver;Database=CalorieCount;User Id=sa;Password=Netcode2024;TrustServerCertificate=true;  # Connection string
+    depends_on:
+      - sqlserver  # Ensure SQL Server starts before the API
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest  # SQL Server image
+    environment:
+      SA_PASSWORD: "Netcode2024"  # SA password
+      ACCEPT_EULA: "Y"  # Accept EULA
+    ports:
+      - "1433:1433"  # Expose SQL Server's default port
+    volumes:
+      - sqlserverdata:/var/opt/mssql  # Persist SQL Server datas
+    command: /bin/bash -c "chmod +x /var/opt/mssql/scripts/restore-db.sh && /var/opt/mssql/scripts/restore-db.sh && /opt/mssql/bin/sqlservr"
+    healthcheck:
+      test: ["CMD-SHELL", "sqlcmd -Q 'SELECT 1' -S sqlserver -U sa -P Netcode2024"]  # Health check command
+      interval: 10s  # Health check interval
+      retries: 10  # Number of retries before considering the service unhealthy
+
+networks:
+  default:
+    name: my_custom_network  # Custom network name
+
+volumes:
+  sqlserverdata:  # Volume for SQL Server data persistence

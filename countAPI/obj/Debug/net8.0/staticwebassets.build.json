@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "GCOvrI0pXn/3sLOHoNPwxe+uEdbJCtjY7qS00Zaz8DQ=",
+  "Source": "API",
+  "BasePath": "_content/API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "API\\wwwroot",
+      "Source": "API",
+      "ContentRoot": "C:\\Users\\jawis\\OneDrive\\Desktop\\Calorie\\countAPI\\wwwroot\\",
+      "BasePath": "_content/API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\jawis\\OneDrive\\Desktop\\Calorie\\countAPI\\wwwroot\\reset-password.html",
+      "SourceId": "API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jawis\\OneDrive\\Desktop\\Calorie\\countAPI\\wwwroot\\",
+      "BasePath": "_content/API",
+      "RelativePath": "reset-password.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\reset-password.html"
+    }
+  ]
+}
